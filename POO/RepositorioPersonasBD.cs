@@ -16,6 +16,7 @@ namespace POO
         public void ObtenerPersonas()
         {
             Console.WriteLine("Obteniendo personas de la base de datos");
+            Dispose();
         }
     }
 }

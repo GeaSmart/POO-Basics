@@ -13,6 +13,7 @@ namespace POO
             Console.WriteLine("Objeto persona inicializado");
             Direcciones = new List<string>();
         }
+
         public int Id { get; set; }
         public string Nombre { get; set; }
         public decimal Sueldo { get; set; }
